@@ -8,6 +8,7 @@ require 'shoulda/action_controller/matchers/set_session_matcher'
 require 'shoulda/action_controller/matchers/route_matcher'
 require 'shoulda/action_controller/matchers/redirect_to_matcher'
 require 'shoulda/action_controller/matchers/render_template_matcher'
+require 'shoulda/action_controller/matchers/use_filter_matcher'
 
 module Shoulda # :nodoc:
   module ActionController # :nodoc:
