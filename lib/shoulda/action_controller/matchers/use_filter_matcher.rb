@@ -60,15 +60,15 @@ module Shoulda # :nodoc:
         end
         
         def failure_message
-          "Expected the #{kind} filter :#{@filter_method} to be used for the #{@action} action"
+          "Expected the #{@kind} filter :#{@filter_method} to be used for the #{@action} action"
         end
         
         def negative_failure_message
-          "Did not expect the #{kind} filter :#{@filter_method} to be used for the #{@action} action"
+          "Did not expect the #{@kind} filter :#{@filter_method} to be used for the #{@action} action"
         end
         
         def description
-          "use the #{kind} filter :#{filter_method} for the #{@action} action"
+          "use the #{@kind} filter :#{@filter_method} for the #{@action} action"
         end
         
         private
